@@ -1,6 +1,6 @@
 pragma solidity >=0.8.16 <0.9.0;
 
-import "forge-std/Test.Sol";
+import "forge-std/Test.sol";
 import "forge-std/Vm.sol";
 import "../src/OwnerUpOnly.sol";
 
