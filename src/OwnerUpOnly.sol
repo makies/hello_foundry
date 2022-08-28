@@ -14,6 +14,7 @@ contract OwnerUpOnly {
 
     function increment() external {
         if (msg.sender != owner) {
+            // ownerと一致しなかったらrevertする
             revert Unauthorized();
         }
         count++;
